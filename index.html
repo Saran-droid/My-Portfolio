@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-header" style="text-align: center;">
+        <img src="aca_studentimage.jpeg" alt="Profile Picture" class="profile-pic">
+        <h1>SaranRagav J U</h1>
+        <p>Data Scientist</p>
+    </div>
+
+    <div class="container">
+        <div class="column left-column">
+            <div class="section">
+                <h2>About Me</h2>
+                <p class="justify">Hello! I'm SaranRagav J U, a dedicated data scientist with a passion for uncovering insights from complex datasets. With a strong background in statistics, machine learning, and data visualization, I specialize in turning raw data into actionable strategies.</p>
+            </div>
+
+            <div class="section">
+                <h2>Academic Details</h2>
+                <table>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Percentage/CGPA</th>
+                    </tr>
+                    <tr>
+                        <td>SSLC</td>
+                        <td>Kongu Kalvi Nilayam Mat Hr. Sec School</td>
+                        <td>2020</td>
+                        <td>91.6%</td>
+                    </tr>
+                    <tr>
+                        <td>HSLC</td>
+                        <td>Kongu Kalvi Nilayam Mat Hr. Sec School</td>
+                        <td>2022</td>
+                        <td>92%</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor of Technology in Artificial Intelligence & Data Science</td>
+                        <td>KPR Institute Of Engineering & Technology</td>
+                        <td>2022-2026</td>
+                        <td>8.2</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2>Skills</h2>
+                <p>SQL, Machine Learning, Data Analysis, Problem Solving</p>
+            </div>
+        </div>
+
+        <div class="column right-column">
+            <div class="section">
+                <h2>Experience</h2>
+                <p>Completed Internship at Yaane Technologies and Codtech IT Solutions under the domain of Data Science</p>
+            </div>
+
+            <div class="section">
+                <h2>Projects</h2>
+                <p>1. Sentiment Analysis Web App: Built using Python, Streamlit, and scikit-learn.</p>
+                <p>2. Skin Disease Classification: Developed a model using ResNet-50.</p>
+                <p>3. Checkbox Detection using OpenCV</p>
+            </div>
+
+            <div class="section">
+                <h2>Certifications</h2>
+                <p>1. Exploratory Data Analysis by IBM</p>
+                <p>2. Statistics and Reliability Analysis from NPTEL</p>
+                <p>3. Getting Started with Competitive Programming from NPTEL</p>
+            </div>
+            <div class="section">
+                <h2>Contact details</h2>
+                <p> Email : ragavsaran954@gmail.com</p>
+            </div>
+            
+    </div>
+    <div class="form-container">
+        <h1>Leave a Review</h1>
+        <form action="submit_review.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">Rating:</label>
+                <select id="rating" name="rating" required>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="2">2 - Below Average</option>
+                    <option value="1">1 - Poor</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="review">Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+            </div>
+            
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+</div>
+    <div class="links">
+        <a href="https://www.linkedin.com/in/saran-ragav-7004ba215/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Saran-droid" target="_blank">GitHub</a>
+    </div>
+</body>
+</html>
