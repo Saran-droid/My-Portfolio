@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# Resume files (keep local only)
+*.docx
+Saranragav_Resume.docx
+
+# Summary files
+PORTFOLIO_SUMMARY.md

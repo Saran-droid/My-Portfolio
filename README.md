@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saranragav J U - Portfolio
 
-## Getting Started
+A modern, responsive portfolio website showcasing my work as an AI/ML Engineer. Built with Next.js 16, TypeScript, Tailwind CSS v4, and Framer Motion.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern Design**: Clean, professional UI with smooth animations
+- **Dark Mode**: Toggle between light and dark themes
+- **Responsive**: Fully responsive design that works on all devices
+- **Performance**: Optimized with Next.js 16 and Turbopack
+- **Animations**: Smooth scroll animations with Framer Motion
+- **SEO Optimized**: Meta tags and semantic HTML for better search engine visibility
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16.1.6
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Theme**: next-themes
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Saran-droid/portfolio.git
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## 🏗️ Build
 
-To learn more about Next.js, take a look at the following resources:
+To create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Project Structure
 
-## Deploy on Vercel
+```
+portfolio/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx       # Root layout with theme provider
+│   │   ├── page.tsx         # Home page
+│   │   └── globals.css      # Global styles
+│   └── components/
+│       ├── Hero.tsx         # Hero section with intro
+│       ├── About.tsx        # About me section
+│       ├── Experience.tsx   # Work experience
+│       ├── Projects.tsx     # Project showcase
+│       ├── Skills.tsx       # Skills and technologies
+│       ├── Education.tsx    # Education and certifications
+│       ├── Contact.tsx      # Contact information
+│       ├── ThemeToggle.tsx  # Dark mode toggle
+│       └── theme-provider.tsx
+├── public/
+│   └── resume.pdf          # Resume file
+└── package.json
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Sections
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Hero**: Introduction with name, title, and quick links
+2. **About**: Overview of expertise and background
+3. **Experience**: Professional work experience with detailed descriptions
+4. **Projects**: Showcase of 8 major AI/ML projects with GitHub links
+5. **Skills**: Technical skills organized by category
+6. **Education**: Academic background and certifications
+7. **Contact**: Contact information and social links
+
+## 🔗 Projects Featured
+
+- **PharmaAssist-AI**: Multi-agent pharmacy support system
+- **Interview Voice Agent**: AI-powered voice interview screening
+- **Agentic RAG**: Document Q&A with RAG pipeline
+- **NL to DB**: Natural language to SQL converter
+- **Notes QA Bot**: PDF-based question answering
+- **Question Paper Generator**: AI-powered academic tool
+- **Book Recommendation System**: Semantic book search
+- **Farmer's AI Chatbot**: Agricultural information assistant
+
+## 📧 Contact
+
+- **Email**: ragavsaran954@gmail.com
+- **Phone**: +91 81908 61022
+- **GitHub**: [github.com/Saran-droid](https://github.com/Saran-droid)
+- **LinkedIn**: [linkedin.com/in/saranragav-j-u](https://linkedin.com/in/saranragav-j-u)
+
+## 📄 License
+
+© 2026 Saranragav J U. All rights reserved.
+
+---
+
+Built with ❤️ using Next.js, TypeScript, Tailwind CSS, and Framer Motion
