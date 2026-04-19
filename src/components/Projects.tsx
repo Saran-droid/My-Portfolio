@@ -68,7 +68,7 @@ const projects = [
     description: 'AI chatbot for farmers providing market prices, pest control, and fertilizer recommendations with intelligent query classification via OpenRouter models. Features multilingual support and speech recognition.',
     tech: ['Flask', 'OpenRouter API', 'LangChain', 'Pandas'],
     github: 'https://github.com/Saran-droid/Farmer-s-Chatbot',
-    demo: 'https://saran-droid.github.io/Farmer-s-Chatbot/',
+    demo: 'https://farmer-s-chatbot-1.onrender.com',
     featured: false
   }
 ];
