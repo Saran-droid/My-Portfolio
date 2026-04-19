@@ -108,7 +108,7 @@ export default function Contact() {
                 Send Email
               </a>
               <a
-                href="/resume.pdf"
+                href="/Saranragav_Resume.docx"
                 download
                 className="px-8 py-3 bg-blue-700 text-white rounded-full font-semibold hover:bg-blue-800 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
               >
