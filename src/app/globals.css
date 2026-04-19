@@ -4,24 +4,25 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #03070f;
+  color: #f8fafc;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: rgb(243 244 246);
-}
-
-.dark ::-webkit-scrollbar-track {
-  background-color: rgb(17 24 39);
+  background-color: rgb(15 23 42);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(156 163 175);
+  background-color: rgb(75 85 99);
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(107 114 128);
+  background-color: rgb(99 102 241);
 }

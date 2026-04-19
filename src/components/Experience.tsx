@@ -48,7 +48,7 @@ export default function Experience() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-white/50 dark:bg-gray-800/50">
+    <section id="experience" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-950">
       <div className="max-w-6xl mx-auto">
         <motion.div
           ref={ref}
